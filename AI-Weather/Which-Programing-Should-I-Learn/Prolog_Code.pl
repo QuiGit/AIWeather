@@ -4,15 +4,47 @@ thoitiet('nang_nong', nhietdo('cao_tren_30_do')).
 thoitiet('mat', nhietdo('tu_20_den_30_do')).
 thoitiet('lanh', nhietdo('duoi_20_do')).
 thoitiet('nang_nong', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('khong_gio'), bautroi('trong_xanh'), may('khong_may')).
+thoitiet('nang', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('khong_gio'), bautroi('trong_xanh'), may('co_may')).
 thoitiet('mat', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('co_gio'), bautroi('trong_xanh'), may('co_may')).
-thoitiet('mat', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('khong_gio'), bautroi('am_u'), may('co_may')).
-thoitiet('nang_nong', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('khong_gio'), bautroi('nang'), may('khong_may')).
+thoitiet('nang', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('co_gio'), bautroi('trong_xanh'), may('khong_may')).
+thoitiet('lanh', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('gio_manh'), bautroi('trong_xanh'), may('khong_may')).
+thoitiet('mua_lanh', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('gio_manh'), bautroi('trong_xanh'), may('co_may')).
+thoitiet('lanh', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('gio_nhe'), bautroi('trong_xanh'), may('co_may')).
+thoitiet('mat', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('gio_nhe'), bautroi('trong_xanh'), may('khong_may')).
+thoitiet('mua', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('khong_gio'), bautroi('am_u'), may('co_may')).
+thoitiet('mat', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('khong_gio'), bautroi('am_u'), may('khong_may')).
+thoitiet('mat', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('co_gio'), bautroi('am_u'), may('khong_may')).
+thoitiet('mua', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('co_gio'), bautroi('am_u'), may('co_may')).
+thoitiet('mua_to', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('gio_manh'), bautroi('am_u'), may('co_may')).
+thoitiet('mua_vua', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('gio_manh'), bautroi('am_u'), may('khong_may')).
+thoitiet('mua', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('gio_nhe'), bautroi('am_u'), may('khong_may')).
+thoitiet('mua_vua', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('gio_nhe'), bautroi('am_u'), may('co_may')).
+thoitiet('mua_vua', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('gio_nhe'), bautroi('mua'), may('co_may')).
+thoitiet('mua', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('gio_nhe'), bautroi('mua'), may('khong_may')).
+thoitiet('mua_lanh', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('gio_manh'), bautroi('mua'), may('khong_may')).
+thoitiet('mua_to', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('gio_manh'), bautroi('mua'), may('co_may')).
+thoitiet('mua_vua', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('co_gio'), bautroi('mua'), may('co_may')).
+thoitiet('mua_lanh', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('co_gio'), bautroi('mua'), may('khong_may')).
+thoitiet('mua', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('khong_gio'), bautroi('mua'), may('khong_may')).
+thoitiet('mua_vua', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('khong_gio'), bautroi('mua'), may('co_may')).
+thoitiet('mua_vua', nhietdo('nhiet_do_cao'), doam('do_am_cao'), gio('khong_gio'), bautroi('mua'), may('co_may')).
+thoitiet('mua', nhietdo('nhiet_do_cao'), doam('do_am_cao'), gio('khong_gio'), bautroi('mua'), may('khong_may')).
+
+
+thoitiet('mua', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('co_gio'), bautroi('nang'), may('co_may')).
+thoitiet('mat', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('gio_manh'), bautroi('nang'), may('co_may')).
+thoitiet('nang', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('gio_manh'), bautroi('nang'), may('khong_may')).
+thoitiet('nang', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('gio_nhe'), bautroi('nang'), may('khong_may')).
+thoitiet('lanh', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('gio_nhe'), bautroi('nang'), may('co_may')).
+
+
 thoitiet('nang_nong', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('khong_gio'), bautroi('nang'), may('khong_may')).
 thoitiet('nang_nong', nhietdo('nhiet_do_cao'), doam('do_am_thap'), gio('co_gio'), bautroi('nang'), may('khong_may')).
 thoitiet('nang_nong', nhietdo('nhiet_do_cao'), doam('do_am_cao'), gio('khong_gio'), bautroi('nang'), may('khong_may')).
+thoitiet('nang', nhietdo('nhiet_do_cao'), doam('do_am_cao'), gio('khong_gio'), bautroi('nang'), may('co_may')).
 thoitiet('lanh', nhietdo('nhiet_do_cao'), doam('do_am_cao'), gio('gio_manh'), bautroi('nang'), may('co_may')).
 thoitiet('mat', nhietdo('nhiet_do_cao'), doam('do_am_cao'), gio('co_gio'), bautroi('nang'), may('co_may')).
-thoitiet('nang', nhietdo('nhiet_do_cao'), doam('do_am_cao'), gio('khong_gio'), bautroi('nang'), may('co_may')).
+
 thoitiet('mat', nhietdo('nhiet_do_cao'), doam('do_am_cao'), gio('gio_nhe'), bautroi('trong_xanh'), may('co_may')).
 thoitiet('lanh', nhietdo('nhiet_do_cao'), doam('do_am_cao'), gio('gio_manh'), bautroi('trong_xanh'), may('co_may')).
 thoitiet('mat', nhietdo('nhiet_do_cao'), doam('do_am_cao'), gio('co_gio'), bautroi('trong_xanh'), may('co_may')).
@@ -32,7 +64,7 @@ thoitiet('mua_vua', nhietdo('nhiet_do_cao'), doam('do_am_cao'), gio('gio_nhe'), 
 thoitiet('mat', nhietdo('nhiet_do_cao'), doam('do_am_cao'), gio('gio_nhe'), bautroi('nang'), may('khong_may')).
 thoitiet('mat', nhietdo('nhiet_do_cao'), doam('do_am_cao'), gio('gio_manh'), bautroi('nang'), may('khong_may')).
 thoitiet('mat', nhietdo('nhiet_do_cao'), doam('do_am_cao'), gio('co_gio'), bautroi('nang'), may('khong_may')).
-thoitiet('nang', nhietdo('nhiet_do_cao'), doam('do_am_cao'), gio('khong_gio'), bautroi('nang'), may('khong_may')).
+
 thoitiet('nang', nhietdo('nhiet_do_cao'), doam('do_am_cao'), gio('gio_nhe'), bautroi('nang'), may('khong_may')).
 thoitiet('mat', nhietdo('nhiet_do_cao'), doam('do_am_cao'), gio('gio_manh'), bautroi('nang'), may('khong_may')).
 thoitiet('mua-lanh', nhietdo('nhiet_do_thap'), doam('do_am_thap'), gio('gio_manh'), bautroi('mua'), may('co_may')).
@@ -182,8 +214,8 @@ thoitiet('lanh', nhietdo('nhiet_do_thap'), doam('do_am_thap'), gio('gio_manh'), 
 thoitiet('lanh', nhietdo('nhiet_do_thap'), doam('do_am_cao'), gio('gio_manh'), bautroi('trong_xanh'), may('co_may')).
 thoitiet('mat', nhietdo('nhiet_do_thap'), doam('do_am_cao'), gio('gio_nhe'), bautroi('trong_xanh'), may('co_may')).
 thoitiet('lanh', nhietdo('nhiet_do_thap'), doam('do_am_cao'), gio('co_gio'), bautroi('trong_xanh'), may('co_may')).
-thoitiet('mat', nhietdo('nhiet_do_thap'), doam('do_am_cao'), gio('khong_gio'), bautroi('trong_xanh'), may('co_may')).
-thoitiet('nang', nhietdo('nhiet_do_thap'), doam('do_am_cao'), gio('khong_gio'), bautroi('trong_xanh'), may('khong_may')).
+
+
 thoitiet('mat', nhietdo('nhiet_do_thap'), doam('do_am_cao'), gio('co_gio'), bautroi('trong_xanh'), may('khong_may')).
 thoitiet('mat', nhietdo('nhiet_do_thap'), doam('do_am_cao'), gio('gio_nhe'), bautroi('trong_xanh'), may('khong_may')).
 thoitiet('mat', nhietdo('nhiet_do_thap'), doam('do_am_cao'), gio('gio_manh'), bautroi('trong_xanh'), may('khong_may')).
@@ -268,6 +300,7 @@ thoitiet('mua_vua', nhietdo('nhiet_do_trung_binh'), doam('do_am_cao'), gio('co_g
 thoitiet('mua_lanh', nhietdo('nhiet_do_trung_binh'), doam('do_am_cao'), gio('co_gio'), bautroi('mua'), may('khong_may')).
 thoitiet('mua', nhietdo('nhiet_do_trung_binh'), doam('do_am_cao'), gio('khong_gio'), bautroi('mua'), may('khong_may')).
 thoitiet('mua_vua', nhietdo('nhiet_do_trung_binh'), doam('do_am_cao'), gio('khong_gio'), bautroi('mua'), may('co_may')).
+
 
 
 
